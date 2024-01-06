@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <style>
+        h1,h2,h3,h4,h5,h6{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            text-align: left;
+            color: rgb(2, 2, 2);
+        }
+    </style>
+    <form>
+        <p style="background-color: blueviolet; font-size: xx-large; font-family: 'Times New Roman', Times, serif; text-align: center;">
+           <i><b>Sankranthi Festival</b></i> </p>
+        <fieldset>
+            <h1>Name of the candidate:</h1>
+            <input type="text">
+            <h2>Roll Number:</h2>
+            <input type="text" maxlength="10" required>
+             <h3>College Name</h3>
+             <input type="text" value="SVEC" disabled>
+            <h4>Stream</h4>
+            <select name="Stream" id="Stream">
+                <option value="B.tech">B.tech</option>
+                <option value="Degree">Degree</option>
+                <option value="Pharmacy">Pharmacy</option>
+                <option value="B.com">B.com</option>
+                <option value="M.tech">M.tech</option>
+                <option value="MBA">MBA</option>
+            </select> <br> <br>
+            <h5>Select your Department:</h5>
+            <input type="radio" name="Dept" id="Dept1">
+            <Label for="Dept1">CSSE</Label> <br>
+            <input type="radio" name="Dept" id="Dept2">
+            <Label for="Dept1">CSE</Label> <br>
+            <input type="radio" name="Dept" id="Dept3">
+            <Label for="Dept1">ECE</Label> <br>
+            <input type="radio" name="Dept" id="Dept4">
+            <Label for="Dept1">EEE</Label> <br>
+            <h6>Select the Event:</h6>
+            <input type="checkbox" name="Event1" id="Event1">
+            <label for="Event1">Rangoli</label> <br>
+            <input type="checkbox" name="Event2" id="Event2" >
+            <label for="Event2">Flying Kite</label> <br>
+            <input type="checkbox" name="Event3" id="Event3">
+            <label for="Event3">Traditional Rampwalk</label> <br>
+            <input type="checkbox" name="Event4" id="Event4"  >
+            <label for="Event4">Pongal cooking</label> <br>
+            <h6>Upload your passphoto:</h6>
+            <input type="file" name="File" id="File"> <br> <br>
+            <input type="submit" value="Submit" style="background-color: rgb(235, 15, 136);" > 
+            <input type="button" value="review">
+        </fieldset>
+    </form>
+</body>
+</html>
